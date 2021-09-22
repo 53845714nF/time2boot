@@ -37,6 +37,6 @@ void loop () {
 
 void computerOn(){
   digitalWrite(optocoupler, HIGH);
-  delay(200);
+  delay(2000);
   digitalWrite(optocoupler, LOW);
 }
