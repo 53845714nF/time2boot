@@ -29,7 +29,8 @@ Stimmt diese mit der einprogrammierten Zeit überein, so gibt der Mikrocontrolle
 Es wird die RTClib von Adafruit verwendet, diese muss in der Arduino IDE installiert werden.
 
 ### Installation
-Über die Arduino IDE wird der Sketch time2boot.ino auf den arduino Nano hochgeladen.
+Über die Arduino IDE wird der Sketch time2boot.ino auf den Arduino Nano hochgeladen.
+Zu Beginn ist es erforderlich, die richtige Zeit auf der RTC einzustellen. Hierfür muss die Arduino IDE verwendet werden. Laden Sie einfach den "set_time" Sketch [(Ursprung Arduino Forum)](https://forum.arduino.cc/t/setting-correct-time-on-a-ds3231-module-using-adafruits-rtclib-library/470337) hoch, um die aktuelle Zeit zu setzen. Anschließend sollte der "time2boot" Sketch erneut hochgeladen werden.
 
 ### Einbau
 Die Platine wird dann im Rechner verbaut.
@@ -68,6 +69,7 @@ The RTClib from Adafruit is used, this must be installed in the Arduino IDE.
 
 ### Installation
 Via the Arduino IDE the sketch time2boot.ino needs to be uploaded to the arduino Nano.
+At the beginning, it is necessary to set the correct time on the RTC. For this purpose, the Arduino IDE must be used. Simply upload the "set_time" sketch [(Origin Arduino Forum)](https://forum.arduino.cc/t/setting-correct-time-on-a-ds3231-module-using-adafruits-rtclib-library/470337) to set the current time. Afterward, the "time2boot" sketch should be uploaded again.
 
 ### Montage
 The board is then installed in the computer.

@@ -8,7 +8,7 @@ void setup () {
   pinMode(optocoupler, OUTPUT);
   digitalWrite(optocoupler, LOW);
   
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   if (! rtc.begin()) {
     Serial.println("Couldn't find RTC");
